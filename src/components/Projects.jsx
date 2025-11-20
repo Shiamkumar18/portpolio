@@ -7,7 +7,7 @@ const ProjectCard = ({ image, title, description, link }) => {
   return (
     <article  className='relative max-w-sm bg-gray-800 rounded-lg overflow-hidden shadow-lg group'>
       {/* Background glow */}
-      <div className='absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 left-10'></div>
+      <div className='absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-[#800000]  rounded-full blur-3xl opacity-50 -top-5 left-10'></div>
 
       <div className='relative z-10'>
         <figure className='relative'>
@@ -20,9 +20,9 @@ const ProjectCard = ({ image, title, description, link }) => {
             href={link}
             target='_blank'
             rel='noopener noreferrer'
-            className='absolute inset-0 flex items-center justify-center bg-purple-800 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300'
+            className='absolute inset-0 flex items-center justify-center bg-[#800000] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300'
           >
-            <button className='bg-white font-medium text-black py-2 px-4 rounded-3xl shadow hover:text-white hover:bg-[#2879d5]'>
+            <button className='bg-white font-medium text-black py-2 px-4 rounded-3xl shadow hover:text-white hover:bg-[#800000]'>
               Live Preview
             </button>
           </a>
@@ -58,25 +58,7 @@ export default function Projects() {
       title: 'Portfolio Website 3',
       description: 'Clean and minimal portfolio concept for a design studio.',
       link: ''
-    },
-     {
-      image: GTA,
-      title: 'Portfolio Website 1',
-      description: 'A personal portfolio built with React and TailwindCSS.',
-      link: ''
-    },
-    {
-      image: ochi,
-      title: 'Portfolio Website 2',
-      description: 'Modern UI design focused on animation and interactivity.',
-      link: ''
-    },
-    {
-      image: Thirtysixstudio,
-      title: 'Portfolio Website 3',
-      description: 'Clean and minimal portfolio concept for a design studio.',
-      link: ''
-    },
+    }
   ]
 
   return (
@@ -84,7 +66,7 @@ export default function Projects() {
       <section data-aos='fade-up' data-aos-delay='300'>
         <header className='text-center'>
           <h1 className='text-3xl text-white sm:text-4xl font-bold mb-6'>
-            My <span className='text-purple-400'>Projects</span>
+            My <span className='text-[#5E040C]'>Projects</span>
           </h1>
           <p className='text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base'>
             A collection of some of my favorite works and design experiments.

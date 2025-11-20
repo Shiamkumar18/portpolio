@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    scroll-behavior: smooth;
+
+
+/*this help for hide the scroll bar*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+html {
+  scrollbar-width: none;
+}
+
+
+body {
+  -ms-overflow-style: none;
 }
