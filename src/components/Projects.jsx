@@ -43,19 +43,19 @@ export default function Projects() {
   const projects = [
     {
       image: GTA,
-      title: 'Portfolio Website 1',
-      description: 'A personal portfolio built with React and TailwindCSS.',
-      link: ''
+      title: 'A Frontend Project 1',
+      description: 'A GTA Web page with React and TailwindCSS.',
+      link: 'https://gtawebsitee.netlify.app'
     },
     {
       image: ochi,
-      title: 'Portfolio Website 2',
+      title: 'A Frontend Project 2',
       description: 'Modern UI design focused on animation and interactivity.',
-      link: ''
+      link: 'https://ochiclone234.netlify.app'
     },
     {
       image: Thirtysixstudio,
-      title: 'Portfolio Website 3',
+      title: 'A Frontend Project 3',
       description: 'Clean and minimal portfolio concept for a design studio.',
       link: ''
     }
